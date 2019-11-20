@@ -6,7 +6,7 @@
 #    By: rdidier- <didier.rda@gmail.com>                        #+#  +:+    #+#   +:+   +#+  +:+        #
 #                                                              #+# #+#     #+#   #+#   +#+#+#+#+        #
 #    Created: 2019/11/20 08:04:02 by rdidier-                 #+#   #+#   #+#   #+#   #+#    #+#        #
-#    Updated: 2019/11/20 09:56:26 by rdidier-                ###   ###   ########    ###     ###.br     #
+#    Updated: 2019/11/20 12:18:08 by rdidier-                ###   ###   ########    ###     ###.br     #
 #                                                                                                       #
 # ***************************************************************************************************** #
 
@@ -33,3 +33,11 @@ That's because this URL redirects elsewhere. Since we didn't include the -L opti
 
 curl 'google.com'
 In this case, the address is not redirecting somewhere else—so it downloads the code for the Web page stored at https://www.google.com and displays it in the terminal.
+
+less doc
+scroll down: space bar or down arrow
+
+scroll up: b or up arrow
+
+/ : Forward search
+q : quit
