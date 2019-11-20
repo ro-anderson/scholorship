@@ -1,0 +1,35 @@
+# ***************************************************************************************************** #
+#                                                                                                       #
+#                                                                  :::::       :::::        :::         #
+#    shell_notes                                                  +:+:+:+     +:+:+:+     :+:+:+        #
+#                                                                +:+  :+:    +:+   :+:   +:+ +:+        #
+#    By: rdidier- <didier.rda@gmail.com>                        #+#  +:+    #+#   +:+   +#+  +:+        #
+#                                                              #+# #+#     #+#   #+#   +#+#+#+#+        #
+#    Created: 2019/11/20 08:04:02 by rdidier-                 #+#   #+#   #+#   #+#   #+#    #+#        #
+#    Updated: 2019/11/20 09:56:26 by rdidier-                ###   ###   ########    ###     ###.br     #
+#                                                                                                       #
+# ***************************************************************************************************** #
+
+Key idea: A shell is simply the outermost layer of an operating system. It's designed to provide a way for you to interact with the tools and services that your operating system provides.
+
+#GUI  (Graphical User Interface
+    -instructions to the computer bi interacting whit things like windows, menus, icons, and buttons.
+#CLI - Command-Line Interface
+    -User interface where you give instructions to the computer by enteiring lines of text.
+
+BASH - Notes:
+
+echo $COLUMNS x $LINES
+
+returns how big my terminal is.
+
+mv *2014*.jpg vacation
+curl -o google.html -L 'http://google.com'
+
+curl 'googel.com'
+(without the -L)
+That's because this URL redirects elsewhere. Since we didn't include the -L option, curl did not follow the redirect (and simply downloaded the redirection data the server sent back
+
+
+curl 'google.com'
+In this case, the address is not redirecting somewhere else—so it downloads the code for the Web page stored at https://www.google.com and displays it in the terminal.
