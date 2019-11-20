@@ -1,3 +1,3 @@
-# scholorship - Udacity Cloud DevOps Nanodegree
+# Udacity Cloud DevOps Nanodegree
 Bertlesmann-Scholorship-CloudDevOps
 
