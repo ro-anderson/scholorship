@@ -6,7 +6,7 @@
 #    By: rdidier- <didier.rda@gmail.com>                        #+#  +:+    #+#   +:+   +#+  +:+        #
 #                                                              #+# #+#     #+#   #+#   +#+#+#+#+        #
 #    Created: 2019/11/20 08:04:02 by rdidier-                 #+#   #+#   #+#   #+#   #+#    #+#        #
-#    Updated: 2019/11/20 12:18:08 by rdidier-                ###   ###   ########    ###     ###.br     #
+#    Updated: 2019/11/23 02:19:57 by rdidier-                ###   ###   ########    ###     ###.br     #
 #                                                                                                       #
 # ***************************************************************************************************** #
 
@@ -41,3 +41,23 @@ scroll up: b or up arrow
 
 / : Forward search
 q : quit
+
+git log
+git show
+
+git log --grep="word"
+git log --oneline
+git log --stat #display the files that have been changed in the commit and the number of lines that have been added or deleted.
+git log -p #display the actual changes made to a file. (--path)
+git show a2c25061 --stat #Shows only the
+
+git log -p:
+
+diff --git a/css/app.css b/css/app.css # a: old state, b: new state
+index 07c36fa..3cbd0b8 100644 # a commit and b commit
+--- a/css/app.css go from a
++++ b/css/app.css to b
+
+
+git log -p -w will show the patch information, but will not highlight lines where only whitespace changes have occurred.
+
